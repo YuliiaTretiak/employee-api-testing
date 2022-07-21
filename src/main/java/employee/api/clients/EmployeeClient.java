@@ -1,12 +1,12 @@
 package employee.api.clients;
+
 import employee.dto.Employee;
 
 
 //Rest + get put post delete patch methods для employee, перевикористовуючи BaseClient
 public class EmployeeClient extends BaseClient {
 
-    public EmployeeClient()
-    {
+    public EmployeeClient() {
         super("http://localhost:9090/", "employee/");
     }
 
@@ -19,6 +19,6 @@ public class EmployeeClient extends BaseClient {
     }
 
     public Employee[] getEmployees() {
-        return  super.getList().as(Employee[].class);
+        return super.getList().as(Employee[].class);
     }
 }
