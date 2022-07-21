@@ -1,12 +1,10 @@
 package employee.api.clients;
 
-import employee.dto.Employee;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.http.ContentType;
 import io.restassured.response.ResponseBodyExtractionOptions;
 import io.restassured.specification.RequestSpecification;
 
-import java.util.List;
 
 import static io.restassured.RestAssured.*;
 

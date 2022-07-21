@@ -1,7 +1,6 @@
 package employee.api.clients;
 import employee.dto.Employee;
 
-import java.util.List;
 
 //Rest + get put post delete patch methods для employee, перевикористовуючи BaseClient
 public class EmployeeClient extends BaseClient {

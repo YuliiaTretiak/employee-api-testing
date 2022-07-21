@@ -2,12 +2,9 @@ package employeeTests;
 
 import employee.api.clients.EmployeeClient;
 import employee.dto.Employee;
-import org.hamcrest.Matchers;
 import org.junit.jupiter.api.Test;
 
-import static io.restassured.RestAssured.get;
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
-import static org.hamcrest.Matchers.hasItems;
 
 public class E2ENegativeTest {
 
